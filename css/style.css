@@ -1,0 +1,49 @@
+/*Fonts */
+@font-face {
+    font-family:hpRegular;
+    src: url(../assets/fonts/hp-simplified-265.ttf);
+}
+
+/*///////////////////////////*/
+
+body{
+	background-color: #272727 !important;
+	font-family:hpRegular;
+	text-align: center;
+	color: #FAFAFA!important;
+	letter-spacing: .2px;
+}
+
+a{
+	text-decoration: none;
+	color: #FAFAFA!important;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+#logo{
+	margin-top: 100px;
+	max-width:300px;
+   
+}
+
+#tempDiv{
+	border-bottom: 1px solid #e84c13;
+	max-width: 400px;
+	margin:0 auto;
+}
+
+#tempDiv ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#tempDiv ul li {
+	padding-left: 0px;
+}
+
+span{
+	color: #e84c13;
+}
